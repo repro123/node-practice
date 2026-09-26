@@ -73,7 +73,7 @@ const server = http.createServer((req, res) => {
     });
     res.end(data);
 
-    notfound;
+    // notfound;
   } else {
     res.writeHead(404, {
       "Content-type": "text/html",
